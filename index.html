@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Rajib Ahmed">
+   <meta name="description" content="A simple and user-friendly weather app that provides real-time weather updates, including temperature, humidity, and wind speed.">
+   <meta name="keywords" content="weather app, real-time weather, temperature, forecast, wind speed, humidity, weather conditions, Rajib Ahmed">
+   <title>Weather App</title>
+   <link rel="stylesheet" href="./styles/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <link rel="icon" type="image/png" sizes="32x32" href="./img/clear.png">
+</head>
+<body>
+   <main>
+      <!-- Main Container for the Weather App -->
+      <div class="main-container">
+         <div class="weather-contents-div">
+            
+            <!-- Top Section: Input and Search Button -->
+            <div class="div-top">
+               <h1>Weather App</h1>
+               <input type="text" placeholder="Enter City Name" spellcheck="false">
+               <div class="btn-label-div">
+                  <button type="submit" class="btn">Search</button>
+                  <label>Invalid city name</label>
+               </div>
+            </div>
+   
+            <!-- Weather Icon Section -->
+            <div class="weather-condition">
+               <img id="condition" src="">
+            </div>
+   
+            <!-- Middle Section: Weather Details -->
+            <div class="div-middle">
+               <div class="text-container">
+                  <input type="text" class="city" value=" " spellcheck="false">
+                  <h2></h2>
+                  <div class="sm-info">
+                     <div>
+                        <p class="temp-max">Max Temp: <span></span></p>
+                        <p class="temp-min">Min Temp: <span></span></p>
+                     </div>
+                     <div>
+                        <p class="humidity">Humidity: <span></span></p>
+                        <p class="windspeed">Wind Speed: <span></span></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+</body>
+</html>
